@@ -1,0 +1,277 @@
+\documentclass[10pt, a4paper]{moderncv}
+
+\linespread{1.4}
+
+\usepackage{url}
+
+
+% colors: black, blue, green, grey, orange & purple
+% styles: banking, casual, classic & oldstyle
+\moderncvtheme[grey]{classic}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{datetime}
+
+\newcommand{\revision}{\twodigit\day\twodigit\month\the\year}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot[RE, RO]{\footnotesize{rev. \revision}}
+
+% adjust the page margins
+\usepackage[scale=.80]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{Ivan}
+\familyname{Pedrazas}
+\mobile{+44 75 2564 5128}
+\homepage{http://ivan.pedrazas.me}
+\email{ivan@127biscuits.com}
+
+\begin{document}
+\maketitle
+
+
+%
+% PROFESSIONAL EXPERIENCE
+%
+
+\section{Core Skill Base}
+\cvline{}{Passionate, creative, pragmatic and very pro-active agile software engineer with a strong focus on designing and building solutions. Natural team leader, who enjoys mentoring.}
+\cvline{}{Very comfortable being a bridge between Business and Technical teams with many years of experience dealing with Enterprise Application Integration and Business and Content Architecture.}
+\cvline{}{Full stack person able to design, develop, test and deploy and administer complex solutions based on distributed architectures.}
+
+\cvline{}{}
+
+\section{Professional experience}
+\cventry{April 2014--Cur.}
+{Senior DevOps Engineer}
+{Import.io ltd.}{UK}{}
+{Refactored provisiong strategy to use docker and replace the baking AMIs. Design of an application based on microservices to manage dockerized infrastructure. Refactored data services to use eventual consistency based on AWS Kinesis and rabbitMQ. Refactored infrastructure to use Apache Cassandra instead of MySQL as main datasource.\\}
+
+\cvline{}{}
+
+\cventry{Nov 2014--April 2014.}
+{Senior Big Data DevOps Engineer}
+{Adbrain ltd.}{UK}{}
+{Designed a strategy called  ``Agile Clusters'' that reduce Infrastructure costs \textbf{by 30\%}. Developed an application based on microservices running in Docker to manage Apache Spark and Apache Cassandra clusters and orchestrate Adbrain's cloud infrastructure based on Amazon AWS and Azure. Refactored the deployment methodology, redefined how to create Continous Deployment using Jenkins, Docker and Chef.\\}
+
+\cvline{}{}
+
+
+\cventry{Nov 2010--Aug 2014}
+{Software Architect}
+{European Medicines Agency}{UK}{}
+{Defined and implemented the Records Managament Roadmap according to the enterprise guidelines to fullfill the Life Sciences requirements. Evaluation and implementation of the Enterprise Search. Design and implementation of several applications following SOA principles using Angular.js and REST services. Design of several APIs to integrate legacy applications.\\}
+
+
+\cventry{Apr 2012--Jun 2012}
+{Data Architect}
+{Online Guards}{UK}{}
+{Redesign and implement their Big Data solution. My solution provided the same output reducing the processing time from 24h to 7 minutes.\\}
+
+\cventry{Nov 2009--Oct 2010}
+{Software Architect}
+{Barcelona Council}{Spain}{}
+{Advised the board of directors about Document Management strategy. Helped the Architecture Board to normalise the platform. Design frontend based on extJS to expose Documentum functionality. Code review and mentoring.\\}
+
+\cventry{2008--2010}
+{Architect}
+{Toyota - Sword UK}{UK}{}
+{Planned and designed the new Corporate Architecture based on Spring and other Open Source technologies. Assisted on the migration of the Portal and the Content Managemnt System. Code review and mentoring. Supervision of all the projects and procedures.\\}
+
+\cventry{2006--2008}
+{Architect}
+{UBS }{UK}{}
+{Technical design and specifications of a Credit Risk Platform. Technical team leadership.\\}
+
+\cventry{2004--2006}
+{Senior Technical Consultant}
+{Sword UK, InSynCo AG,CSC}{UK}{}
+{Consultant for clients like Common Wealth Secretariat, Bayer, BP, Antonio Puig, Aresa\\}
+
+
+\cvline{}{}
+
+\section{Side Projects}
+
+
+\cvline{}{}
+
+\cventry{2012--2013}
+{:blibb}
+{}{}{\url{blibb.net}}
+{Content Management System with mobility and accessibility built into its core. Every single component of the CMS is exposed as a REST API, including the content.\\\\ :blibb is built using a different range of technologies: MongoDB, Python, ZeroMQ, PHP, Javascript, Redis.}
+
+\cvline{}{}
+
+\cventry{2013--2014}
+{Oi!}
+{}{}{\url{oioi.me}}
+{Messaging platform that allows interchange pre-defined messages between groups of people.\\Built on :blibb. Mobile application (iOS and Android) and web client.}
+
+\cvline{}{}
+
+\cventry{Apr 2014--Cur.}
+{dotMarks}
+{}{}{\url{dotmarks.net/app/}}
+{Self Hosted Bookmarks platform. REST API written in Python and Java with an angularjs web client and a google chrome extension. The system provides APIs and analytics.\\Python, Angular.js, Java, MongoDB, Cassandra, Celery, Docker.}
+
+\cvline{}{}
+
+%
+% TECHS
+%
+
+\section{Technologies that I use regularly}
+\cvline{}{
+    \textbf{Java},
+    J2EE, Maven,
+    \textbf{PHP},
+    \textbf{Python},
+    Angular.js,
+    \textbf{ZeroMQ},
+    HTML5, XSLT, JSP,
+    Nginx,
+    \textbf{git},
+    Javascript, grunt,
+    celery,
+    \textbf{flask},
+    Vagrant,
+    \LaTeX,
+    extJS,
+    CSS3,
+    JaxB,
+    DropWizard,
+    Android,
+    Ionic Framework,
+    REST Apis,
+    SOA
+}
+
+\cvline{}{}
+
+\section{Testing}
+\cvline{}{
+    \textbf{jUnit},
+    Mockito,
+    \textbf{Jenkins},
+    TestNG,
+    Selenium,
+    Spock,
+    jbehave
+}
+
+\cvline{}{}
+
+\section{Documentum}
+\cvline{}{I have been using Documentum since version 4i up to current version 7.1 doing integrations, migrations, and all sorts of development. I have worked and customised almost all the different components of the platform.}
+\cvline{}{
+    \textbf{DFC},
+    \textbf{(x)DQL},
+    WDK,
+    \textbf{REST Services},
+    Business Object Framework,
+    Webtop
+}
+
+\cvline{}{}
+
+\section{DevOps}
+\cvline{}{
+    \textbf{Docker},
+    \textbf{AWS},
+    OpenStack,
+    Ansible,
+    Varnish,
+    \textbf{Chef}, Jenkins
+}
+
+\cvline{}{}
+
+
+\section{Data}
+\cvline{}{
+    Hadoop,
+    \textbf{MongoDB},
+    \textbf{Oracle}
+    Apache Spark,
+     \textbf{Apache Cassandra},
+    \textbf{ElasticSearch},
+    MySql,
+    \textbf{Redis},
+    couchdb,
+    \textbf{Neo4j},
+    ELK,
+    RabbitMQ,
+    \textbf{Solr},
+   Google Search Appliance
+}
+
+
+\cvline{}{}
+
+%
+% EDUCATION
+%
+
+\section{Education}
+\subsection{Academic}
+\cventry{1999--2004}
+{Physics}{University of Barcelona (Spain)}{}{}{}
+
+\cvline{}{}
+
+\subsection{Non academic}
+\cventry{Nov 2014}
+{Chef Fundamentals}{London (UK)}{}{}{}
+
+\cventry{Nov 2014}
+{Amazon Web Services - Big Data on AWS}{London (UK)}{}{}{}
+
+
+\cventry{Jul 2014}
+{ElasticSearch Core training}{London (UK)}{}{}{}
+
+\cventry{Mar 2012}
+{AWS Training Course}{Thoughtworks (UK)}{}{}{}
+
+\cventry{Jul 2009}
+{Spring Core Fundamentals}{Toyota (UK)}{}{}{}
+
+\cventry{Jul 2009}
+{Enterprise Integration with Spring}{Toyota (UK)}{}{}{}
+
+\cventry{Jul 2009}
+{Rich Web Applications with Spring}{Toyota (UK)}{}{}{}
+
+\cventry{Apr 2008}
+{Google Search Appliance}{Google Inc (UK)}{}{}{}
+\cvline{}{}
+
+
+%
+% MISC
+%
+
+\section{Other resources}
+
+\cvline{1}{My github:
+\url{github.com/ipedrazas}}
+
+\cvline{2}{Given the workshop ``50 Shades of Docker'' at PyCon Spain 2014, agenda avilable at \url{2014.es.pycon.org/}.}
+
+\cvline{2}{Given the workshop ``50 Shades of Big Data'' at PyCon Spain 2013, agenda avilable at \url{2013.es.pycon.org/}.}
+
+\cvline{3}{Given a workshop about Mobile Development at Google Campus for the Queen Mary Entrepreneurs \url{www.qmsu.org/groups/qme/}.}
+
+\cvline{4}{You can find more detailed information about my jobs on my LinkedIn
+profile: \url{uk.linkedin.com/in/ivanpedrazas}.}
+
+\cvline{5}{Blog: \url{ivan.pedrazas.me}.}
+
+\end{document}
