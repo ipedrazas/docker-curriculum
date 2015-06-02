@@ -1,6 +1,6 @@
 # My Curriculum... in a container
 
-Since it seems that recruiters are so good at "looking at my github profile and finding that I'm such a great fit" I thought it would be better if I could streamlined the process.
+Since it seems that recruiters are so good at "looking at my github profile and finding that I'm such a great fit for this rare opportunity that just came up" I thought it would be better if I could streamline the process.
 
 Run this command:
 
