@@ -8,6 +8,6 @@ RUN apt-get update && apt-get -y install texlive-latex-extra texlive-fonts-recom
 VOLUME "/output"
 WORKDIR "/app"
 
-ADD ivan-cv.tex /app/ivan.tex
+ADD ivan-curriculum.tex /app/ivan-curriculum.tex
 
-CMD ["pdflatex","-output-dir=/output", "/app/ivan.tex"]
+CMD ["pdflatex","-output-dir=/output", "/app/ivan-curriculum.tex"]
