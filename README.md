@@ -5,7 +5,7 @@ Since it seems that recruiters are so good at "looking at my github profile and 
 Run this command:
 
 ```
-docker run -it --rm -v $(pwd):/output ipedrazas/cv
+docker run -it --rm -v $(pwd):/output ipedrazas/curriculum
 ```
 
 and you will generate my latest curriculum in PDF from a LaTeX file.
