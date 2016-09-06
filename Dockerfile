@@ -5,9 +5,6 @@ RUN echo "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted uni
 
 RUN apt-get update && apt-get -y install texlive-latex-extra texlive-fonts-recommended
 
-VOLUME "/output"
-WORKDIR "/app"
-
 ADD ivan-curriculum.tex /app/ivan-curriculum.tex
 
 CMD ["pdflatex","-output-dir=/output", "/app/ivan-curriculum.tex"]
